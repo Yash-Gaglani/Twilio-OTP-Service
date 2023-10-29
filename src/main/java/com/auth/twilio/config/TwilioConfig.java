@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 @Component
-@ConfigurationProperties("authService.twilio")
+@ConfigurationProperties("as.twilio")
 public class TwilioConfig {
 
     private String accountSid;
